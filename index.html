@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/body.css">
+    <link rel="stylesheet" href="styles/footer.css">
+</head>
+<body>
+    <header>
+        <nav >
+            <div id="navBar">
+                <div id="head">
+                    <div id="halfLog">Vi</div>
+                    <div>vaDecor</div>
+                </div>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Support</a>
+                    </li> 
+                </ul>
+                <button id="navBtn" class="btn btn-dark">Sign Up</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="sec1">
+                <div id="arti" >
+                    <h1>Interior Design</h1>
+                    <p>
+                        Step into a world where the art of Interior Design is meticulously <br/> crafted to bring together timeless elegance
+                        and
+                        cutting-edge<br/>
+                        modern Innovation, Allowing you to transform your living spaces<br/> into the epitome of luxury and sophistication
+                    </p>
+                </div>
+                <div>
+                    <img src="images/Image 1.png" alt="reception">
+                </div>
+            </div>
+            <div class="sec1">
+               
+                <div id="subsec1" >
+                    
+                    <button id="navBtn" class="btn btn-dark">Start Project</button>
+                    
+
+                    <div id="subbb">
+                        <pre>
+        400+
+        Projects Completed
+                        </pre>
+                        <pre>
+     600+
+    Satisfied Clients
+                       </pre>
+                        <pre>
+    100+
+    Unique Styles
+                       </pre>
+                    </div>
+                </div>
+                <div id="overlapped">
+                    <div class="box" id="clearClass"></div>
+                    <div id="boxim" class="box">
+                        <img  src="images/Image 2.png" alt="reception">
+                    </div>
+                    <div class="box" id="icon">
+                        <i style="color: white; background-color: black;" class="fa-solid fa-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+            </div>
+           
+            
+
+        </section>
+        <section id="sec2">
+            <div>
+                <h3> &nbsp;Our Services</h3>
+            </div>
+            <div class="subsec2">
+                <div class="rowicon">
+                    <div>
+                        <img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEnElEQVR4nO2ba6gVVRTHf+d66WqvW6ZfRKGy8mpXSjIzgx5aJD2krC69JE3oSQ+sMEroJvmpLIrCqOhBYtLDlPwkUbcHJXWla9FDivRGD7CH9oIsy1jxHxjOnTkze2bq7DnNHxacM3vvNWv9z95r77VmDlSoEGAUcEwJZCzRGO2gw3wdgo+BPSWQX4D2CPsHHHSYr0PwDbABuMBzmRYzAyamHL9BvkYSsALoAK4DTtL1E4HFDrIIGIm/WJFEwOHAr8BqXX/GcYr+DsyixAS0OhoSsNFxupdRNsYR8JYHEf6/EvN1CIYBB0bIdA1aENOeR96UFK13gWyeHtNuvqbGJCnroXi8KikaPbLZbM+NSRUBVDNgT7UEqGJAD8WjCoJUuwBeb4MHh/Lsr4FT8H8GzAAGZfOHwBF5lK0DvgNuAN4HvgLaPCfgM+AT4Hqd+V/Oo2wQeFyfrxCrY/CXgP1k4036fj/wQx6FXwKP6PNCKR+HvwQcIBtv1PflwI95CVgJTBarZSHgDtn8cB4C2oHtEankYR4TMMahiNoQli6ukQKbARcC9wF/AP3A/h4S0Alsko33yuZV8uEF1xR4qQZa9A/jDNX8nvOQgOdl2+y664vkS29aRYcAvwFPxbTfKoWn4g8Bp8mmW2LaV8on8y0Rq4GdwEEx7baetuiA1OYBAWbDZu39cWt9lIKhVbgbYizwp5ZAI1wtxo35ZhMQ/PpXJfRbJt/iHq39g8XqlLTV7a0T4hM0nwBbqt8D+yT0M8d3Azc36tQPvJbyxsEe67zFFEiA3fsn4KGU/d8A3olr7FAUXZJS2XmaekfSPAK6ZcM5KfvbAWkXsFdU47TQWjo0hcxS//lNJGC+bJiZ0uYgdh0b9WvuyviQ4S9tja44Gvgc2Aocl2H8bbp3FpvN13PDytZrPT+bQQbliGvkNiN+1pa7u96gFDDivshos/n6UljZwhxsmtztaPzbKlZ0akexwPSRo47lOey1ne7yqOpP+DWSfhVBwtfWKb8OX+vCHbZtPRD6vlRGuWJinS1m29q6ax/Il/A18zURwRn6dmC8Ao4dJx8lP3YouQrQq3vlxWOy8TLZvCQmp0mFYcDTdVOnr6BM8N8ioFM2hm1+Mu+R/ShgHnACUKMY7FDOcRFwsapORRCAbLTC6KUqiniHfVWkiApOScfZ0qNTRQvb9u7RSa5bEd2C4CvaFVoW61WxOTuibY7abKdpSVyiaX5Ngz7Xqo/1bSmMVIG1LyGQ1pSNbvf8XUNn9GqN23pPQrf6WubWEhih4olVZtPCKtLfAsNpAfRoXZ/sMGamxti7vaXHi8raXE5jbRpjM6HUaFfq+WDGV1p3uj7Q8A1TNZWt4JJ16UyhxJgnJ7K8pNClsZYrlBJnAe/KiTUZqjbBs0nTcSYlQ5fO+9tUjMgj23REnkCJMFu/3p0F/EUmqBWcTonQAbyeo2ZXL31xtXyfUdMjtnBdfoYcuiuiZr9MbcfXXR9XYCGm6aiphD6gWRJguAqwn7aSs3GYqxL8e8CVehI1oATI5z9bFYrzFd2DNb4142Gp1KipdD3+/zDtK+Ap/gZqu31+nV4XzQAAAABJRU5ErkJggg==">
+                    </div>
+                    
+                    <div>
+                        <h4>Lighting Design</h4>
+                        <p>
+                        Achieve the perfect balance of <br/> ambient, task, and accent lighting<br /> for a functional atmosphere</p>
+                    </div>
+                </div>
+                <div class="rowicon">
+                    <div>
+                        <img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC0klEQVR4nO2aX4gNURzHP+vPCvlbRFv7sKKV8rBSxJYHZFNSUpSspw218iKl5N8+qJu/L/687ZPalD95UMSjSJKWBx4orvwpf0KiGJ36TZ2me+feOXPm3pnr96nvwz3NnTPzmTO/e87MBUVRFEVRFEVRcsp2YMAh7bQIH4DAIdN8HsQYYEaCtLeagJUJO9/fagL2Jez8WkYCfgJH5IKUrfbvwCCwFniehYCrCQWYg27zLOAGMA/oBtYB80XCXaAL6AG2AZOAU8BUPDIgw7pSRqpIWOCp7/vABmAycBz4BfwGNgGzgQnAMWkLRXXgkbnAzpifm+EqAnZ46n88sBl4Hdl/KKErcjuYfJaR4IV+xyJ00VP/12P6CCWEt0MmRfCCo4BRT/2bovYpJu+l+BkJL6x2bzVg1FHAX2AmBWc68MdRgEkfBacvxckHUp0LzVE5kW/AXocFyRoKzm0R8BXY47gqG0dBGStXPkiZJRSUHg8nH8gcvZAMehJwiYIyUdb2u4BHCZ8H2JlSx0/tEPAE+Fhj0lMpZgZ4B9iSlYh+4EGFdlPgbgFnU+x7jrV89ZFzNFBASTq9l2LfVzyefBizcCqEgFkxs8xFss1hq81sG3I5RsBNCiJgWcxJpBHwkgIIaAN6a1xF86DlaWRxNSKJPhuw88bqI3cCOuTqna4hIE1CAUbeQZnQpaIb2O1BgLnn38p3zjdgBHyRz+aJVSaUEgo4Yx1kLQFpakBUQCD1pukCHjdRgM/3FM4CygkE+KgBtoATZEBJBZBoBDyz5u8ngeUO8/56Ygqn4ZXVNpSHEdBylFKMgEYnFyOgnFHRqye5K4LB/yjggLzcbEbW50FAL7BaspDsWWX15+tNtdd5QNbkfiKUNS0jYIU85kqaHz4EbAQeVsk76/851bY5ZO1rsbwkMelMcAzDMfuvN1tdBXQ6vg4Ls9S1Y0VRFEVRFEVRyJJ/YZQ6HEOvEU0AAAAASUVORK5CYII=">
+                    </div>
+                    
+                    <div>
+                        <h4>Interior Design</h4>
+                        <p>
+                            From concept to completion, we <br />oversee every detail to bring your <br />vision to life efficiently</p>
+                    </div>
+                </div>
+                <div class="rowicon">
+                    <div>
+                        <img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC+UlEQVR4nO2YPWgUQRTHf37ERsVGEMRCOBQsFFIopDCFRWLpCTaJYGEEUUvTnxYSLVJoZ1IawQM/isSPwiKCggqCghDBLglI0ogExag5GZiB4TEzNzs7yUXZHzxu2Zl5M2/3vf/OHFRUVFREcg3YTjrbgKt0mEPAb6BRwoca+wfopoM8A1rAd2BPwvjdwJL28ZwO0a8XYGzc02+vNhfjwkc/a8wm4INYhC897gITgbS0fXwENrOGDIkFtDzpcQRY0dbjSUtpZ9cqiK3AvDWxfKp9Vt8X1n11begTY2wf83qOVachFnEa+OJIj5OOp113pOUCcEb0a6x2ELbKKJvW9y+JhZwHPjkC+QxcEPcuah8qLVslVTAaW2VU3h/W97uAGavtlyf/ZduMHov2tRKhgqU5KHJZKtEJz8Lfa3O1qTE2E6Ju1JzZeSoWcRk4JcwWAbv4ZXGbopbjh0UfNWdWjgdSJWSPLR9PEn30r+bHL8ZkahxoUzs+y/aRPJf4JG87fI0l+hoiIzuARVHE6m0Z3iYsUI0xKF+2KCzqObNz3VHEhnrik5bKdUy0jeQOQu1ef1gTqMI1dHk+frGmPpJbPOr4E6jlDCSk7zst+Zx0bDVM2xXRNmm1KR+Gdt+rZMwONlTEJqCvVr/XwAarXV2/tNq/Abs8vsasfq6dcxL2DraIHXX46hEPJdZeiYdSmNQivh/w+SCDKBQitYiXgX0BvzVdxGVFIZrYIh4Vbep80WxjC2LMaIIoFCZUxOr3TQnpNfYO2JggCoW4FSjiwQxBGBsIiMLNskHs1zlvHKpCtbmhU2VKLGoukFZzou+Uvq98+URhWa8lmUeRRdwooDD1yPN5TYjCw9QgegsUsescH2La6r9UQBR6iwaRWsT2OT5Et/5Dr4woRJFaxHdI27+likJbTBH7bNYzybDjHO4zeT43NttmbikKpWhmlF1pzZwLrQLhH34jzQz97lWBlGRQ/zEwoq/LvpGBSH8dIzaQdU/zfwmkoqKC9cFfmob0Vig4Yj0AAAAASUVORK5CYII=">
+                    </div>
+                    
+                    <div>
+                        <h4>Outdoor Design</h4>
+                        <p>
+                            Celebrate the changing seasons<br /> with our seasonal outdoor decor<br /> services</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sec3">
+            <img style="height: 712px;" src="images/Mask group.png" alt="">
+            <div id="subsec3">
+                <h2>Designing Your Dream With Brilliance</h2>
+                <p>Elevate your spaces with bespoke interior designs that reflect <br />your unique style and aspirations, crafted with precision
+                and<br /> brilliance for an unforgettable living experience</p>
+                <div class="underborder">
+                    <p style="display: inline;" >Living Room Interior Design</p>
+                    <i class="fa-solid fa-plus"></i>
+
+                </div>
+                <div class="underborder">
+                    <p style="display: inline;">Commercial Office Room Interior Design</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <button style="margin-left: 0px; margin-bottom: 0px;" id="navBtn" class="btn btn-dark">Learn More</button>
+            </div>
+
+        </section>
+        <section id="sec4">
+            <div id="subsec4">
+                <div>
+                    <div class="columns2">
+                      
+                        <div>
+                            <div class="iconcir">
+                                <i class="fa-solid fa-rocket"></i>
+                                
+                            </div>
+                            <div class="line" style="height: 150px; border-left: 2px solid black; margin-left: 25px;"></div>
+                        </div>
+                        <div>
+                            <h2>Start Project</h2>
+                            <p>Embark on your design adventure by initiating<br /> your project. Share your vision and set the stage<br /> for a
+                                bespoke design
+                                experience</p>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    <div class="columns2">
+                        <div>
+                            <div class="iconcir">
+                                <i class="fa-solid fa-lightbulb"></i>
+                        
+                            </div>
+                            
+                            <div class="line" style="height: 150px; border-left: 2px solid black; margin-left: 25px;"></div>
+                            
+                        </div>
+                        
+                        <div>
+                            <h2>Craft</h2>
+                            <p>Collaborate closely to achieve design excellence<br /> refining your vision and crafting brilliance into<br /> every
+                                aspect of your
+                                space</p>
+                        </div>
+
+                    </div>
+                    
+                    
+                    <div class="columns2">   
+                        <div class="iconcir">
+                        
+                            <i class="fa-solid fa-circle-check"></i>
+                        </div>
+                        <div>
+                            <h2>Execute</h2>
+                            <p>
+                                Witness your vision becoming a reality as we<br /> execute the design plan with precision. Celebrate<br /> the joy
+                                of your newly
+                                transformed space
+                            </p>
+
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="images/Image.png" alt="reception">
+            </div>
+
+
+        </section>
+        <section id="sub4" >
+            <div id="cover">
+                <img src="images/Mask group (1).png" alt="">
+                <h1>
+                    What Our Customers <br/> Say About Us
+                </h1>
+
+            </div>
+            <div id="rel">
+                <div class="dark">
+                    <h2>"</h2>
+                    <p>
+                        Working with your design team was an<br /> absolute pleasure. The attention to detail<br /> and creativity
+                        exceeded my expectations.<br />
+                        Thank you for making my home beautiful!
+                    </p>
+                    <div>
+                        <img src="images/Mask group (2).png" alt="">
+                        <h4>Sophie Carter</h4>
+                        <h6>New York, USA</h6>
+                
+                    </div>
+                
+                </div>
+                <div id="dark2" class="dark">
+                    <h2>"</h2>
+                    <p>
+                        Exceptional service! From the initial<br /> consultation to the final reveal, your team<br /> demonstrated professionalism and a
+                        keen <br />eye for design. Highly recommend!
+                    </p>
+                    <div>
+                        <img src="images/Mask group (2).png" alt="">
+                        <h4>James Bennett</h4>
+                        <h6>Toronto, Canada</h6>
+                
+                    </div>
+                
+                </div>
+            </div>
+            <div  id="yarab"  >
+                <div class="arrow">
+                    <i  class="fa-solid fa-arrow-left"></i>
+                </div>
+                <div class="arrow">
+                    <i   class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer >
+        <div id="center">
+            <div>
+                <h2>Subscribe to Our Newsletter<br /> for Design Insights </h2>
+                <p>Be the first to discover trends, inspirations, and special offers as <br />we bring the world of design directly
+                    to your inbox</p>
+                <div id="search">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="text" placeholder="Enter your email address">
+                    <button style="margin: 0px;" id="navBtn" class="btn btn-dark">Subscribe</button>
+                </div>
+            </div>
+
+        </div>
+            
+        <div id="bot">
+            <div>
+                <img src="images/Logo.png" alt="">
+                <p>
+                    VivaDecor your premier <br/> destination for luxury and <br/>modern interior design
+                </p>
+                <div>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i  class="fa-brands fa-twitter"></i>
+                    <i  class="fa-brands fa-instagram"></i>
+                    <i  class="fa-brands fa-linkedin"></i>
+                </div>
+            </div>
+            <div>
+                
+                <ul>
+                    <li><h4>Our services</h4></li>
+                    <li>Interior Design</li>
+                    <li>Outdoor Design</li>
+                    <li>Lighting Design</li>
+                    <li>Office Design</li>
+                </ul> 
+                    
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <h4>Our services</h4>
+                    </li>
+                    <li>Reviews</li>
+                    <li>Careers</li>
+                    <li>Pricing</li>
+                    <li>Press inquires</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <h4>Our services</h4>
+                    </li>
+                    <li>info@vivadecor.com</li>
+                    <li>Design Avenue Cityville,<br/> CA 90210 United States</li>
+                </ul>
+            </div>
+        
+        </div>
+    </footer>   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

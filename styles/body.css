@@ -1,0 +1,430 @@
+*{
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'inter';
+}
+#clearClass {
+    background-color: white;
+    width: 206px;
+    height: 187px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+
+
+
+.sec1{
+    display:flex;
+   height: 400px;
+    margin: 50px;
+}
+
+#arti{
+    margin: 50px;;
+    font-size: 20px;
+    width: 75%;
+}
+
+#arti h1{
+    font-size: 133px;
+    font-family: 'inter';
+    padding-bottom: 50px;
+   
+}
+#subsec1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+
+
+}
+
+#subbb{
+    
+    display: flex;
+   
+    font-weight: bold;
+    
+}
+
+#overlapped{
+    position: relative;
+    width: 50%;
+    height: auto;
+   
+    
+} 
+.box{
+    position: absolute;
+
+}
+
+#clearClass{
+    top: 0px;
+    left: 0px;
+}
+#boxim{
+    
+    top : 40px;
+    left: 40px;
+}
+#icon{
+    top:345px;
+    left:88%;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    display: grid;
+    place-items: center;
+}
+
+section div h3{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    
+}
+
+section div h3::before{
+    content: "";
+    flex:0.05;
+    border: 2px solid black;
+    
+    margin: auto;
+}
+section div h3::after {
+    content: "";
+    flex: 1;
+    margin: auto;
+}
+
+#sec2{
+    display: flex;
+    flex-direction: column;
+    margin: 100px; 
+    width: 100%;
+    
+}
+.subsec2{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    padding-left: 0px;
+    
+    
+   
+}
+.rowicon{
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    padding-right: 50px; 
+}
+
+section div h4{
+    
+    font-weight: bold;
+    
+}
+
+#sec3{
+    display: flex;
+    font-family: 'Inter';
+    flex-direction: row;
+    margin: 70px;
+    width: 100%;
+}
+
+.underborder{
+    border-bottom: 2px solid rgb(203, 203, 203);
+    
+    width: 75%;
+    display: flex;
+    
+    justify-content: space-between;
+
+}
+#subsec3{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0px 40px ;
+    justify-content: space-between;
+}
+
+
+#sec4{
+    display: flex;
+    flex-direction: row;
+    margin: 70px;
+    width: 100%;
+}
+
+#subsec4{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0px 40px ;
+   
+}   
+
+.iconcir{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    display: grid;
+    place-items: center;
+}
+
+.iconcir i{
+    background-color: black;
+    color: white;
+}
+
+.columns2{
+    display:grid;
+    grid-template-columns: 100px 1fr;
+
+}
+#sec4 div img{
+   width: 550px;
+    height: 550px;
+    
+}
+
+#cover{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    width: 100%;
+}
+
+.dark {
+    padding: 50px;
+    width: 530px;
+    height: 625px;
+    background-color: #1F1F1F;
+    
+    color : white;
+    position: absolute;
+    top: 188px;
+    left: 330px;
+}
+.dark h2 ,.dark p ,.dark div, .dark div h4, .dark div h6,.dark div img{
+    background-color: #1F1F1F;
+    margin: 20px;
+}
+
+#sub4{
+    position: relative;
+}
+#dark2{
+    position: absolute;
+    left: 900px;
+}
+.arrow{
+    display: inline;
+    background-color: #F1F1F1;
+   
+}
+.fa-arrow-right,.fa-arrow-left{
+    width: 50px;
+    margin: 15px;
+    height: 50px;
+    background-color: #F1F1F1;
+    display: grid;
+    place-items: center;
+   
+    
+}
+#yarab{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-left: 120px;
+}
+.arrow{
+    margin-left: 15px;
+}
+
+@media (max-width: 768px) {
+    * {
+        background-color: white;
+        margin: 0;
+        padding: 0;
+        font-family: 'inter';
+    }
+
+    #clearClass {
+        width: 100%;
+        height: auto;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+
+    .sec1 {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin: 20px;
+    }
+
+    #arti {
+        margin: 20px;
+        font-size: 16px;
+        width: 100%;
+    }
+
+    #arti h1 {
+        font-size: 2.5rem;
+        padding-bottom: 20px;
+    }
+
+    #subsec1 {
+        width: 100%;
+    }
+
+    #subbb {
+        font-weight: bold;
+    }
+
+    #overlapped {
+        width: 100%;
+        height: auto;
+    }
+
+    #clearClass {
+        width: 50px;
+        height: 50px;
+        top: 0px;
+        left: 0px;
+    }
+
+    #boxim {
+        top: 20px;
+        left: 20px;
+    }
+
+    #icon {
+        top: 210px;
+        left: 90%;
+        background-color: black;
+        width: 60px;
+        height: 60px;
+    }
+
+    #sec2 {
+
+        display: flex;
+
+        flex-direction: column;
+        margin-top: 300px;
+        width: 100%;
+    }
+
+    .subsec2 {
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .rowicon {
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    #sec3,
+    #sec4 {
+        display: flex;
+        flex-direction: column;
+        margin:5px;
+        width: 95%;
+    }
+
+    .underborder {
+        width: 100%;
+    }
+
+    #subsec3,
+    #subsec4 {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .iconcir {
+        width: 40px;
+        height: 40px;
+    }
+
+    .columns2 {
+        display: block;
+    }
+
+    #sec4 div img {
+        width: 100%;
+        height: auto;
+    }
+
+    #cover h1 {
+        
+       position: absolute;
+        top: 0;
+        left: 180px;
+        width: 100%;
+        background-color: transparent;
+    }
+    #rel{
+        display: flex;
+        flex-direction: column;
+    }
+    .dark {
+        width: 80%;
+        height: auto;
+        top: 90px;
+        left: 80px;
+        display: flex;
+        
+        flex-direction: column;
+    }
+    .dark h2,
+    .dark p,
+    .dark div,
+    .dark div h4,
+    .dark div h6,
+    .dark div img {
+        background-color: #1F1F1F;
+        margin: 10px;
+        height: auto;
+        width: auto;
+    }
+
+    #yarab {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+        margin-left: 0px;
+        
+    }
+    .arrow{
+        margin-bottom: 2px; 
+        margin-left: 0px;
+    }
+    img{
+        width: 100%;
+    }
+    .line{
+        display: none;
+    }
+    #dark2{
+        display: absolute;
+        top: 650px;
+        left: 75px;
+    }
+}
